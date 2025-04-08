@@ -57,7 +57,7 @@ To work on the documentation locally:
 
 For support and discussions:
 - [Deployrr Product Page](https://www.deployrr.app)
-- [Official Depoyrr Documentation Website](https://docs.deployrr.app)
+- [Depoyrr Documentation Website](https://docs.deployrr.app)
 - [Discord Community](https://www.simplehomelab.com/discord/)
 - [SimpleHomeLab.com](https://www.simplehomelab.com)
 
