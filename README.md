@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the official documentation for Deployrr, a sophisticated application deployment tool designed to simplify container management and application deployment processes. The documentation is built using Markdown and is hosted on WikiDocs.
+This repository contains the official documentation for Deployrr, a sophisticated application deployment tool designed to simplify container management and application deployment processes. The documentation is built using WikiDocs and available at [https://docs.deployrr.app](https://docs.deployrr.app).
 
 ## Purpose
 
