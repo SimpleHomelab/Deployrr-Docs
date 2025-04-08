@@ -53,17 +53,14 @@ To work on the documentation locally:
 4. Preview changes using a Markdown viewer
 5. Submit your contribution
 
-## Support
+## Links
 
 For support and discussions:
-- Visit the [Support Portal](https://docs.deployrr.app/deployrr/get-support)
-- Join the [Community Forum](https://www.simplehomelab.com/discord/)
+- [Deployrr Product Page](https://www.deployrr.app)
+- [Official Depoyrr Documentation Website](https://docs.deployrr.app)
+- [Discord Community](https://www.simplehomelab.com/discord/)
+- [SimpleHomeLab.com](https://www.simplehomelab.com)
 
 ## License
 
 This documentation is maintained by Anand. All rights reserved.
-
-## References
-
-- [Official Depoyrr Website](https://docs.deployrr.app)
-- [SimpleHomeLab Community](https://www.simplehomelab.com)
