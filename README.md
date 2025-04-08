@@ -27,11 +27,11 @@ The documentation is organized into the following sections:
 
 ## Contributing
 
-We welcome contributions to improve the documentation. To contribute:
+Contributions to improve the documentation are welcome. To contribute:
 
 1. Fork the repository
 2. Create a new branch for your changes
-3. Make your changes following our documentation guidelines
+3. Make your changes following the documentation guidelines
 4. Submit a pull request
 
 ### Documentation Guidelines
@@ -56,12 +56,12 @@ To work on the documentation locally:
 ## Support
 
 For support and discussions:
-- Visit our [Support Portal](https://docs.deployrr.app/deployrr/get-support)
-- Join our [Community Forum](https://www.simplehomelab.com/discord/)
+- Visit the [Support Portal](https://docs.deployrr.app/deployrr/get-support)
+- Join the [Community Forum](https://www.simplehomelab.com/discord/)
 
 ## License
 
-This documentation is maintained by Anand and the Depoyrr community. All rights reserved.
+This documentation is maintained by Anand. All rights reserved.
 
 ## References
 
