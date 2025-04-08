@@ -1,29 +1,42 @@
-# Depoyrr Documentation
+# Deployrr Documentation
 
-![Depoyrr Logo](https://www.simplehomelab.com/images/2025/02/deployrr-logo.png)
+![Deployrr Logo](https://www.simplehomelab.com/images/2025/02/deployrr-logo.png)
 
 ## Overview
 
-This repository contains the official documentation for Depoyrr, a sophisticated application deployment tool designed to simplify container management and application deployment processes. The documentation is built using Markdown and is hosted on WikiDocs.
+This repository contains the official documentation for Deployrr, a sophisticated application deployment tool designed to simplify container management and application deployment processes. The documentation is built using Markdown and is hosted on WikiDocs.
 
 ## Purpose
 
-The Depoyrr documentation aims to provide:
-- Comprehensive guides for setting up and using Depoyrr
+The Deployrr documentation aims to provide:
+- Comprehensive guides for setting up and using Deployrr
 - Best practices for container deployment and management
 - Technical references for configuration and customization
 - Troubleshooting guides and common solutions
 
 ## Documentation Structure
 
-The documentation is organized into the following sections:
-- Getting Started
-- Core Concepts
-- Configuration Guide
-- Advanced Usage
-- API Reference
-- Troubleshooting
-- Best Practices
+The documentation follows a hierarchical structure inside the `documents` folder:
+
+```
+documents/
+├── category1/
+│   ├── document1/
+│   │   ├── content.md
+│   │   └── versions/
+│   └── document2/
+│       ├── content.md
+│       └── versions/
+└── category2/
+    └── document3/
+        ├── content.md
+        └── versions/
+```
+
+Each document:
+- Lives in its own folder under the appropriate category
+- Contains the main content in `content.md`
+- May include a `versions` folder containing previous revisions saved by WikiDocs
 
 ## Contributing
 
@@ -34,14 +47,11 @@ Contributions to improve the documentation are welcome. To contribute:
 3. Make your changes following the documentation guidelines
 4. Submit a pull request
 
-### Documentation Guidelines
+To add new documentation:
 
-- Use clear, concise language
-- Follow Markdown best practices
-- Include practical examples where applicable
-- Ensure accuracy and completeness
-- Test all code examples
-- Update the table of contents when adding new sections
+1. Choose or create an appropriate category folder
+2. Create a new document folder within that category
+3. Add the content following the standard format
 
 ### Local Development
 
