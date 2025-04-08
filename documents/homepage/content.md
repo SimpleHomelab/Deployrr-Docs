@@ -25,3 +25,21 @@ This guide helps you get started with Deployrr - a tool to simplify your homelab
 - DNS must be managed through Cloudflare (domain can be registered anywhere)
 - RPM-based distributions not supported
 - Not compatible with NAS systems (Synology, QNAP) currently
+
+## Contributing
+We welcome contributions to improve this documentation! The documentation source is available on [GitHub](https://github.com/SimpleHomelab/Deployrr-Docs). Here's how you can help:
+
+### Ways to Contribute
+- Fix typos or clarify existing content
+- Add new guides or examples
+- Improve documentation structure
+- Report documentation issues
+- Suggest new topics
+
+### How to Contribute
+1. Fork the repository on GitHub
+2. Create a new branch for your changes
+3. Make your improvements
+4. Submit a pull request with a clear description of your changes
+
+For substantial changes, please open an issue first to discuss what you would like to change. This helps ensure your time is well spent and your contribution aligns with the documentation's goals.
