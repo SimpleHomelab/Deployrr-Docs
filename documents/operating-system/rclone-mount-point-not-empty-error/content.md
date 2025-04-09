@@ -59,7 +59,7 @@ If you encounter permission errors while trying to delete files:
 2. Use sudo for the removal command
 3. Check if any processes are still accessing the directory
 
-For additional support, visit our [support page](https://docs.deployrr.app/deployarr/get-support) or join our [community](https://www.simplehomelab.com/discord/).
+For additional support, visit our [support page](https://docs.deployrr.app/deployrr/get-support) or join our [community](https://www.simplehomelab.com/discord/).
 
 ## Sources
 

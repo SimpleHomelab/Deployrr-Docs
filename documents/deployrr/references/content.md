@@ -2,7 +2,7 @@
 
 ## Official Resources
 
-- [Deployrr GitHub Repo](https://github.com/SimpleHomelab/deployarr) - Latest releases and version information
+- [Deployrr GitHub Repo](https://github.com/SimpleHomelab/deployrr) - Latest releases and version information
 - [Docker-Traefik GitHub Repo](https://github.com/SimpleHomelab/docker-traefik) - Source code for the Docker-Traefik project
 
 ## Documentation
@@ -20,4 +20,4 @@
 
 ## Community Support
 
-- [Discord Community](https://www.simplehomelab.com/go/discord-deployarr) - Active community with thousands of members for Deployrr and general homelabbing support 
+- [Discord Community](https://www.simplehomelab.com/go/discord-deployrr) - Active community with thousands of members for Deployrr and general homelabbing support 

@@ -1,6 +1,6 @@
 ![]({{DOC_PATH}}99de97cca3bdd6e90931581b01b5cdd6.png)
 
-📢 **Important Announcement**: Deployarr is being renamed to Deployrr! [Read the full announcement](https://www.simplehomelab.com/deployarr-v5-7/#Life_after_Deployarr) for more details about this change and what it means for users.
+📢 **Important Announcement**: Deployarr has been renamed to Deployrr! [Read the full announcement](https://www.simplehomelab.com/deployarr-v5-7/#Life_after_Deployarr) for more details about this change and what it means for users.
 
 ## Overview
 This guide helps you get started with Deployrr - a tool to simplify your homelab setup. You'll learn about system requirements, installation steps, and where to get support.

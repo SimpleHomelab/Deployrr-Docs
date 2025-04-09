@@ -7,7 +7,7 @@ When you start Deployrr, the system automatically checks for new versions.
 > - Minor manual edits to your configuration
 > - Updates to your existing setup
 >
-> Always check the [CHANGELOG](https://github.com/SimpleHomelab/deployarr/blob/main/CHANGELOG.md) before upgrading and make sure to backup your configuration.
+> Always check the [CHANGELOG](https://github.com/SimpleHomelab/deployrr/blob/main/CHANGELOG.md) before upgrading and make sure to backup your configuration.
 
 ![]({{DOC_PATH}}update_deployrr1.png)
 

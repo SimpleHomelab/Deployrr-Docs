@@ -1,4 +1,4 @@
-# Getting Support
+# Getting Support on Discord
 
 This guide outlines the various support options available for Deployrr users.
 
@@ -6,7 +6,7 @@ This guide outlines the various support options available for Deployrr users.
 
 The primary support channel for Deployrr is the Discord community:
 
-- Join the [Discord community](https://www.simplehomelab.com/go/discord-deployarr) with thousands of members
+- Join the [Discord community](https://www.simplehomelab.com/go/discord-deployrr) with thousands of members
 - Get support on Deployrr or general homelabbing questions
 - Connect with other users and share experiences
 
@@ -26,7 +26,7 @@ After purchase, be sure to **connect your Discord ID to your SimpleHomelab.com u
 ## Reporting Issues
 
 - Do not open issues on GitHub
-- Join the [Discord server](https://www.simplehomelab.com/go/discord-deployarr/) to:
+- Join the [Discord server](https://www.simplehomelab.com/go/discord-deployrr/) to:
   - Report issues
   - Request features
   - Get help from Anand or other community members

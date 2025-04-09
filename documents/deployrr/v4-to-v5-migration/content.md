@@ -32,7 +32,7 @@ Deployrr v5.0 introduces significant improvements and new features that required
    
 3. **Clean Up Old Configuration**
    - Exit Deployrr v4.6.1
-   - Remove all Deployrr Status files in `/opt/deployarr/status` that start with:
+   - Remove all Deployrr Status files in `/opt/deployrr/status` that start with:
      - `03_`
      - `04_`
      - `05_`
@@ -53,4 +53,4 @@ For a detailed walkthrough of this migration process, watch our [video guide](ht
 
 ## Need Help?
 
-If you encounter any issues during migration, please refer to our [support resources](https://docs.deployrr.app/deployarr/get-support) or [Discord community](https://www.simplehomelab.com/discord/) for assistance.
+If you encounter any issues during migration, please refer to our [support resources](https://docs.deployrr.app/deployrr/get-support) or [Discord community](https://www.simplehomelab.com/discord/) for assistance.
