@@ -96,3 +96,8 @@ I used these rules **(WHICH YOU SHOULDNT)**
 ```
 
 And it actually worked for a while, but somewhere along upgrading packages on the system, or Deployrr upgrades itself, and a couple reboots. It stopped working and led me down 12-16 hours of my own personal hell. Hopefully you can avoid these troubles with this guide.
+
+
+### What's left?
+
+At this current moment, apps set to internal/LAN only access inside Deployrr can only be accessed through http:// and the port number. I'd like for internal/LAN to be accessed with a SSL certificate and without a port number. It may be possible by setting the public A record of the app's subdomain to the private Tailscale IP of the system, but I wasn't able to get it working and haven't spent longer than 10 minutes on trying.
