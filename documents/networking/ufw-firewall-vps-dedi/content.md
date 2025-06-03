@@ -26,7 +26,7 @@ Every Google or LLM result will have you thinking this is to do with the way the
 
 If everything I've described about the "environment" so far sounds similar to yours e.g.  VPS with a public IP, no external firewall control panel (if you were hosting at home your "external firewall" in this case would be your router/modem's portforwarding page) then go on to see how I did it and what worked for me.
 
-TIP: Firewall works in layers depending on your environment. Say you were hosting inside your home on a home-server, you need to go down your layers and work your way backwards. For example, if you're running Proxmox, then make sure you setup the firewall correct inside the virtual machine itself, then do the same rules as the virtual machine's firewall inside the Proxmox Web Control Panel in the Firewall section, then do the same rules inside your modem/router. 
+**TIP:** Firewall works in layers depending on your environment. Say you were hosting inside your home on a home-server, you need to go down your layers and work your way backwards. For example, if you're running Proxmox, then make sure you setup the firewall correct inside the virtual machine itself, then do the same rules as the virtual machine's firewall inside the Proxmox Web Control Panel in the Firewall section, then do the same rules inside your modem/router. 
 
 I'm not telling you to do this, I'm just trying to get you to understand the layered approach and how things all come together. Personally, I don't think all of that would be necessary. If I was in that situation then I would probably just leave the VM operating system firewall & Proxmox firewall's wide open then only do my firewall rules inside my modem/router as the only and "final word" of the firewall. This is a topic subject to a lot of personal opinion, some people say more layers is better, or you should have multi-tiering because of security or what not. It's probably ok however you like but if you're having problems best to keep it as simple as possible. Keep in mind, I wrote this for my own environment which is a VPS or Dedi with a public IP and no external firewall.
 
@@ -81,5 +81,18 @@ Reboot or restart. This should be the achieved effect.
 - Apps set to LAN **WONT** be accessible through the public internet
 
 
+### Other things I learned or tried along the way
 
+Remember when I mentioned the Deployrr setup or Deployrr YouTube videos showing local and remote portforwarding of 444 to 443 and 81 to 80? I actually had previously modified /etc/ufw/before.rules with snippets to do exactly that same "forwarding" as described by the text inside the app and video. 
 
+I used these rules **(WHICH YOU SHOULDNT)**
+
+```
+# Forward port 80 to port 81 on the same machine (for Traefik)
+#-A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 81
+
+# Forward port 443 to port 444 on the same machine (for Traefik)
+#-A PREROUTING -p tcp --dport 443 -j REDIRECT --to-port 444
+```
+
+And it actually worked for a while, but somewhere along upgrading packages on the system, or Deployrr upgrades itself, and a couple reboots. It stopped working and led me down 12-16 hours of my own personal hell. Hopefully you can avoid these troubles with this guide.
