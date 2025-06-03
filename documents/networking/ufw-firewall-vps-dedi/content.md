@@ -65,14 +65,14 @@ Don't just copy this, each provider might have a different interface name, allow
 - Install UFW-Docker through the Deployrr app.
 
 Do the basic UFW setup which is:
-`sudo ufw default deny incoming` - Deny all connections by default
-`sudo ufw default allow outgoing`Allow all outgoing connections by default
-`sudo ufw allow 22/tcp`- Allow SSH so you **DONT** get locked out, if you changed your SSH port from the default (which you **DEFINITELY** already should have, on top of denying authentication with a password and allowing it only with a SSH key), then you need to change the port from 22 to whatever you set your port as.
-`sudo ufw allow 80/tcp`
-`sudo ufw allow 443/tcp`
-`sudo ufw route allow proto tcp from any to any port 443`
-`sudo ufw route allow proto tcp from any to any port 80`
-`sudo ufw allow in on tailscale0`
+- `sudo ufw default deny incoming` - Deny all connections by default
+- `sudo ufw default allow outgoing`Allow all outgoing connections by default
+- `sudo ufw allow 22/tcp`- Allow SSH so you **DONT** get locked out, if you changed your SSH port from the default (which you **DEFINITELY** already should have, on top of denying authentication with a password and allowing it only with a SSH key), then you need to change the port from 22 to whatever you set your port as.
+- `sudo ufw allow 80/tcp`
+- `sudo ufw allow 443/tcp`
+- `sudo ufw route allow proto tcp from any to any port 443`
+- `sudo ufw route allow proto tcp from any to any port 80`
+- `sudo ufw allow in on tailscale0`
 
 Reboot or restart. This should be the achieved effect.
 
