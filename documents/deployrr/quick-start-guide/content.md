@@ -5,26 +5,19 @@ Get up and running with Deployrr in just a few minutes. No purchase is necessary
 
 Follow these simple steps in your Linux terminal:
 
-## 1. Download Deployrr
+## First Run (Download + Run)
 ```bash
-wget https://raw.githubusercontent.com/SimpleHomelab/deployrr/main/deployrr_v5.6.app
+bash -c "$(curl -fsSL https://www.deployrr.app/install.sh)"
 ```
 
-> For Raspberry Pi users, use the **-arm.app** version of the file.
+> The above one-line convenience script will automatically download Deployrr (in the current directory) for your architecture and start it.
 
-## 2. Make it Executable
+## Subsequent Runs
 ```bash
-chmod +x deployrr_v5.6.app
+./deployrr_vX.X.X.app
 ```
 
-> Remember to use the latest version number (e.g., 5.6) from [GitHub](https://github.com/SimpleHomelab/deployrr).
-
-## 3. Run Deployrr
-```bash
-./deployrr_v5.6.app
-```
-
-> Don't ignore the dot in front. From there on, just follow the on-screen prompts.
+> From subsequent runs, you can start Deployrr as shown above. Don't forget the dot in front. Replace **deployrr_vX.X.X.app** with the right file name. From there on, just follow the on-screen prompts.
 
 # License Verification
 
