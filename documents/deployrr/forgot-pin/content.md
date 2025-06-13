@@ -1,0 +1,31 @@
+# Retrieving a Forgotten PIN
+
+If you've forgotten your Deployrr PIN, you can retrieve or reset it through the About menu. This guide explains both options available to you.
+
+![]({{DOC_PATH}}e6454c00712b978c4f4c5b6275185ec7.png)
+## View PIN (v5.2+)
+
+If you're using Deployrr version 5.2 or later, and your PIN was previously stored locally:
+
+1. Open Deployrr
+2. Navigate to the About menu
+3. Select "View PIN"
+4. Your locally stored PIN will be displayed
+
+## Reset PIN (v5.0+)
+
+If you cannot view your PIN (either because you're using an older version or the PIN wasn't stored locally):
+
+1. Open Deployrr
+2. Navigate to the About menu
+3. Select "Reset PIN"
+4. You will receive an email with a reset link
+5. Click the reset link in your email
+6. Follow the license verification process from Deployrr About Menu
+7. Set up a new PIN when prompted
+
+> ⚠️ **Note**: The email used for the reset process must match the email address associated with your Deployrr license.
+
+## Need Help?
+
+If you need additional assistance, check the [support documentation](https://docs.deployrr.app/deployrr/get-support) or join our [community Discord](https://www.simplehomelab.com/discord/).

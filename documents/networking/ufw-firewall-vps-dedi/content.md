@@ -1,4 +1,5 @@
 # Deployrr & UFW Firewall
+**Submitted By:** Community member gold4000
 
 One of the biggest pain points when using Docker in any capacity on a VPS/Dedicated Server is dealing with firewall issues. In almost all cases of remotely affordable cloud VPS or Dedicated Servers, you are given a machine with a public IP and no out of operating system firewall rules (think firewall that is applied to your servers that you use outside of the machine itself and inside the company web interface. Oracle Cloud & AWS are good examples of this, typically if you look up anything involving opening ports for these then your first step is opening ports inside your cloud control panel).
 
