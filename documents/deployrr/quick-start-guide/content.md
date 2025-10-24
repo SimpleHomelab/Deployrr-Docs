@@ -33,6 +33,6 @@ After installation, you may need to verify your license:
 
 For a comprehensive walkthrough of Deployrr's features, watch this detailed video guide:
 
-[Deployrr Detailed Walkthrough](https://www.youtube.com/watch?v=rdqbAr0TFnQ)
+[Deployrr Detailed Walkthrough](https://youtu.be/VMRqO2spJZg)
 
-This 1.5-hour video covers most features from beginning to end, making it an excellent resource for new users.
+This 2.5-hour video covers most features from beginning to end, making it an excellent resource for new users.

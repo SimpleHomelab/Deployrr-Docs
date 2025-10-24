@@ -8,8 +8,8 @@ This guide helps you get started with Deployrr - a tool to simplify your homelab
 ## System Requirements
 
 ### Supported Systems
-- Ubuntu 22.04 or Newer
-- Debian 11 or Newer
+- Ubuntu 22.04/24.04
+- Debian 11/12
 - Other Debian-based systems (untested)
 - Baremetal installations
 - Virtual Machines 
