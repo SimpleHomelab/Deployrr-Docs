@@ -1,76 +1,24 @@
-# Deployrr Documentation
+# Deployrr Documentation (archived)
 
-![Deployrr Logo](https://www.simplehomelab.com/images/2025/02/deployrr-logo.png)
+> [!IMPORTANT]
+> **This repository is archived and no longer updated.**
+>
+> The Deployrr docs now live in the main Deployrr repository, under [`docs/`](https://github.com/SimpleHomelab/Deployrr/tree/main/docs).
+>
+> Read them at **[docs.deployrr.app](https://docs.deployrr.app)**.
 
-## Overview
+## What changed
 
-This repository contains the official documentation for Deployrr, a sophisticated application deployment tool designed to simplify container management and application deployment processes. The documentation is built using WikiDocs and available at [https://docs.deployrr.app](https://docs.deployrr.app).
+The docs moved from WikiDocs to a new site built from the [Deployrr](https://github.com/SimpleHomelab/Deployrr) repository. Every article from here was carried over and updated for Deployrr v6. Old docs.deployrr.app links still work and redirect to the new pages.
 
-## Purpose
+To suggest a fix or a new article, open an issue or a pull request on the [Deployrr repository](https://github.com/SimpleHomelab/Deployrr). See [`docs/CONTRIBUTING.md`](https://github.com/SimpleHomelab/Deployrr/blob/main/docs/CONTRIBUTING.md).
 
-The Deployrr documentation aims to provide:
-- Comprehensive guides for setting up and using Deployrr
-- Best practices for container deployment and management
-- Technical references for configuration and customization
-- Troubleshooting guides and common solutions
-
-## Documentation Structure
-
-The documentation follows a hierarchical structure inside the `documents` folder:
-
-```
-documents/
-├── category1/
-│   ├── document1/
-│   │   ├── content.md
-│   │   └── versions/
-│   └── document2/
-│       ├── content.md
-│       └── versions/
-└── category2/
-    └── document3/
-        ├── content.md
-        └── versions/
-```
-
-Each document:
-- Lives in its own folder under the appropriate category
-- Contains the main content in `content.md`
-- May include a `versions` folder containing previous revisions saved by WikiDocs
-
-## Contributing
-
-Contributions to improve the documentation are welcome. To contribute:
-
-1. Fork the repository
-2. Create a new branch for your changes
-3. Make your changes following the documentation guidelines
-4. Submit a pull request
-
-To add new documentation:
-
-1. Choose or create an appropriate category folder
-2. Create a new document folder within that category
-3. Add the content following the standard format
-
-### Local Development
-
-To work on the documentation locally:
-
-1. Clone the repository
-2. Install required dependencies
-3. Make your changes
-4. Preview changes using a Markdown viewer
-5. Submit your contribution
+The files here are kept for reference only.
 
 ## Links
 
-For support and discussions:
-- [Deployrr Product Page](https://www.deployrr.app)
-- [Depoyrr Documentation Website](https://docs.deployrr.app)
-- [Discord Community](https://www.simplehomelab.com/discord/)
-- [SimpleHomeLab.com](https://www.simplehomelab.com)
-
-## License
-
-This documentation is maintained by Anand. All rights reserved.
+- [Deployrr docs](https://docs.deployrr.app)
+- [Deployrr repository](https://github.com/SimpleHomelab/Deployrr)
+- [Deployrr website](https://www.deployrr.app)
+- [Discord community](https://www.simplehomelab.com/discord/)
+- [SimpleHomelab.com](https://www.simplehomelab.com)
